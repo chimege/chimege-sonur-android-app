@@ -19,3 +19,4 @@ public static Map<String, Pair<String, String>> voices = new HashMap<String, Pai
 };
 ```
 3. Build or publish the app using Android Studio
+4. In case of testing and debugging in Android Studio make sure to change the deploy option to APK from app bundle in run/debug option. https://stackoverflow.com/questions/62407887/how-do-i-debug-my-app-in-which-obb-expansion-packs-have-been-replaced-with-pad
