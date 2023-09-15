@@ -1,0 +1,1453 @@
+{
+    "categories": {
+        "consonants": {
+            "all": [
+                "м",
+                "н",
+                "г",
+                "л",
+                "б",
+                "в",
+                "р",
+                "ц",
+                "ж",
+                "з",
+                "с",
+                "д",
+                "т",
+                "ш",
+                "ч",
+                "х",
+                "к",
+                "п",
+                "ф",
+                "щ"
+            ],
+            "nonvocalized": [
+                "ц",
+                "ж",
+                "з",
+                "с",
+                "д",
+                "т",
+                "ш",
+                "ч",
+                "х"
+            ],
+            "vocalized": [
+                "м",
+                "н",
+                "г",
+                "л",
+                "б",
+                "в",
+                "р"
+            ],
+            "foreign": [
+                "к",
+                "п",
+                "ф",
+                "щ"
+            ]
+        },
+        "vowels": {
+            "all": [
+                "э",
+                "и",
+                "ө",
+                "ү",
+                "а",
+                "о",
+                "у",
+                "й"
+            ],
+            "feminine": [
+                "э",
+                "и",
+                "ө",
+                "ү"
+            ],
+            "masculine": [
+                "а",
+                "о",
+                "у"
+            ],
+            "long": [
+                "аа",
+                "ээ",
+                "оо",
+                "өө",
+                "үү",
+                "уу",
+                "ы"
+            ],
+            "gliding": [
+                "ай",
+                "эй",
+                "ой",
+                "үй",
+                "уй",
+                "ий"
+            ],
+            "y_vowels": [
+                "я",
+                "е",
+                "ё",
+                "ю"
+            ]
+        }
+    },
+    "conjugations": {
+        "PLURAL": {
+            "e_dominated": {
+                "default": [
+                    "үүд",
+                    "чүүд"
+                ],
+                "special": [
+                    {
+                        "suffix": "с",
+                        "after": [
+                            "и"
+                        ],
+                        "conditions": []
+                    },
+                    {
+                        "suffix": "д",
+                        "after": [
+                            "и"
+                        ],
+                        "conditions": []
+                    },
+                    {
+                        "suffix": " нар",
+                        "after": [
+                            "human_name"
+                        ],
+                        "conditions": []
+                    }
+                ]
+            },
+            "u_dominated": {
+                "default": [
+                    "үүд",
+                    "чүүд"
+                ],
+                "special": [
+                    {
+                        "suffix": "с",
+                        "after": [
+                            "и"
+                        ],
+                        "conditions": []
+                    },
+                    {
+                        "suffix": "д",
+                        "after": [
+                            "и"
+                        ],
+                        "conditions": []
+                    },
+                    {
+                        "suffix": " нар",
+                        "after": [
+                            "human_name"
+                        ],
+                        "conditions": []
+                    }
+                ]
+            },
+            "a_dominated": {
+                "default": [
+                    "ууд",
+                    "чууд"
+                ],
+                "special": [
+                    {
+                        "suffix": "с",
+                        "after": [
+                            "и"
+                        ],
+                        "conditions": []
+                    },
+                    {
+                        "suffix": "д",
+                        "after": [
+                            "и"
+                        ],
+                        "conditions": []
+                    },
+                    {
+                        "suffix": " нар",
+                        "after": [
+                            "human_name"
+                        ],
+                        "conditions": []
+                    }
+                ]
+            },
+            "o_dominated": {
+                "default": [
+                    "ууд",
+                    "чууд"
+                ],
+                "special": [
+                    {
+                        "suffix": "с",
+                        "after": [
+                            "и"
+                        ],
+                        "conditions": []
+                    },
+                    {
+                        "suffix": "д",
+                        "after": [
+                            "и"
+                        ],
+                        "conditions": []
+                    },
+                    {
+                        "suffix": " нар",
+                        "after": [
+                            "human_name"
+                        ],
+                        "conditions": []
+                    }
+                ]
+            }
+        },
+        "N-HARIYALAH": {
+            "e_dominated": {
+                "default": [
+                    "ийн"
+                ],
+                "special": [
+                    {
+                        "suffix": "н",
+                        "after": [
+                            "й"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ийн",
+                            "ын",
+                            "ний",
+                            "ий"
+                        ]
+                    },
+                    {
+                        "suffix": "ий",
+                        "after": [
+                            "н"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ийн"
+                        ]
+                    },
+                    {
+                        "suffix": "гийн",
+                        "after": [
+                            "н"
+                        ],
+                        "word_lists": ["g_words"],
+                        "conditions": [
+                            "syllables=1"
+                        ],
+                        "replace": [
+                            "ий"
+                        ]
+                    },
+                    {
+                        "suffix": "гийн",
+                        "after": [],
+                        "word_lists": ["g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "ийн", "ий"
+                        ]
+                    },
+                    {
+                        "suffix": "ийн",
+                        "after": [
+                            "гэ",
+                            "гө",
+                            "гү",
+                            "га",
+                            "го",
+                            "гу",
+                            "ги"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "гийн"
+                        ]
+                    },
+                    {
+                        "suffix": "ний",
+                        "after": [
+                            "мх",
+                            "нх",
+                            "гх",
+                            "лх",
+                            "бх",
+                            "вх",
+                            "рх"
+                        ],
+                        "word_lists": ["n_words"],
+                        "conditions": [],
+                        "replace": [
+                            "ийн",
+                            "гийн"
+                        ]
+                    },
+                    {
+                        "suffix": "ний",
+                        "after": [
+                            "мх",
+                            "нх",
+                            "гх",
+                            "лх",
+                            "бх",
+                            "вх",
+                            "рх"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ийн"
+                        ]
+                    },
+                    {
+                        "suffix": "гийн",
+                        "after": [
+                            "н"
+                        ],
+                        "conditions": [
+                            "syllables=1"
+                        ],
+                        "replace": [
+                            "ий"
+                        ]
+                    }
+                ]
+            },
+            "u_dominated": {
+                "default": [
+                    "ийн"
+                ],
+                "special": [
+                    {
+                        "suffix": "н",
+                        "after": [
+                            "й"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ийн"
+                        ]
+                    },
+                    {
+                        "suffix": "ий",
+                        "after": [
+                            "н"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ийн"
+                        ]
+                    },
+                    {
+                        "suffix": "гийн",
+                        "after": [
+                            "н"
+                        ],
+                        "conditions": [
+                            "syllables=1"
+                        ],
+                        "replace": [
+                            "ий"
+                        ]
+                    },
+                    {
+                        "suffix": "гийн",
+                        "after": [],
+                        "conditions": [],
+                        "replace": [
+                            "ийн", "ий"
+                        ],
+                        "word_lists": ["g_words"]
+                    },
+                    {
+                        "suffix": "ийн",
+                        "after": [
+                            "гэ",
+                            "гө",
+                            "гү",
+                            "га",
+                            "го",
+                            "гу",
+                            "ги"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "гийн"
+                        ]
+                    },
+                    {
+                        "suffix": "ний",
+                        "after": [
+                            "мх",
+                            "нх",
+                            "гх",
+                            "лх",
+                            "бх",
+                            "вх",
+                            "рх"
+                        ],
+                        "word_lists": ["n_words"],
+                        "conditions": [],
+                        "replace": [
+                            "ийн",
+                            "гийн"
+                        ]
+                    },
+                    {
+                        "suffix": "гийн",
+                        "after": [
+                            "н"
+                        ],
+                        "conditions": [
+                            "syllables=1"
+                        ],
+                        "replace": [
+                            "ий"
+                        ]
+                    }
+                ]
+            },
+            "a_dominated": {
+                "default": [
+                    "ын"
+                ],
+                "special": [
+                    {
+                        "suffix": "н",
+                        "after": [
+                            "й"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ийн",
+                            "ын",
+                            "ны",
+                            "ы"
+                        ]
+                    },
+                    {
+                        "suffix": "ийн",
+                        "after": [
+                            "г"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ын"
+                        ]
+                    },
+                    {
+                        "suffix": "ы",
+                        "after": [
+                            "н"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ын"
+                        ]
+                    },
+                    {
+                        "suffix": "гийн",
+                        "after": [
+                            "н"
+                        ],
+                        "conditions": [
+                            "syllables=1"
+                        ],
+                        "replace": [
+                            "ы",
+                            "ын"
+                        ]
+                    },
+                    {
+                        "suffix": "гийн",
+                        "after": [],
+                        "word_lists": ["g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "ын", "ы"
+                        ]
+                    },
+                    {
+                        "suffix": "ын",
+                        "after": [
+                            "гэ",
+                            "гө",
+                            "гү",
+                            "га",
+                            "го",
+                            "гу",
+                            "ги"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "гийн"
+                        ]
+                    },
+                    {
+                        "suffix": "ны",
+                        "after": [
+                            "нэ",
+                            "ни",
+                            "нө",
+                            "нү",
+                            "на",
+                            "но",
+                            "ну",
+                            "иа",
+                            "ио",
+                            "иу",
+                            "й",
+                            "мх",
+                            "нх",
+                            "гх",
+                            "лх",
+                            "бх",
+                            "вх",
+                            "рх"
+                        ],
+                        "word_lists": ["n_words"],
+                        "conditions": [],
+                        "replace": [
+                            "ын",
+                            "гийн"
+                        ]
+                    },
+                    {
+                        "suffix": "ийн",
+                        "after": [
+                            "и",
+                            "ь",
+                            "г",
+                            "ж",
+                            "ч",
+                            "ш"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ын", "ны"
+                        ]
+                    },
+                    {
+                        "suffix": "гийн",
+                        "after": [
+                            "н"
+                        ],
+                        "conditions": [
+                            "syllables=1"
+                        ],
+                        "replace": [
+                            "ы"
+                        ]
+                    },
+                    {
+                        "suffix": "ийн",
+                        "after": [
+                            "ж",
+                            "ч",
+                            "ш"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ын"
+                        ]
+                    },
+                    {
+                        "suffix": "ийн",
+                        "after": [],
+                        "conditions": ["is_foreign=True"],
+                        "replace": [
+                            "гийн", "ын", "ы", "н"
+                        ]
+                    },
+                    {
+                        "suffix": "ын",
+                        "after": [],
+                        "word_lists": ["foreign_odd_words"],
+                        "conditions": [],
+                        "replace": [
+                            "ийн"
+                        ]
+                    }
+                ]
+            },
+            "o_dominated": {
+                "default": [
+                    "ын"
+                ],
+                "special": [
+                    {
+                        "suffix": "н",
+                        "after": [
+                            "й"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ын"
+                        ]
+                    },
+                    {
+                        "suffix": "ийн",
+                        "after": [
+                            "г"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ын"
+                        ]
+                    },
+                    {
+                        "suffix": "ы",
+                        "after": [
+                            "н"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ын", "ийн", "н"
+                        ]
+                    },
+                    {
+                        "suffix": "гийн",
+                        "after": [
+                            "н"
+                        ],
+                        "conditions": [
+                            "syllables=1"
+                        ],
+                        "replace": [
+                            "ы"
+                        ]
+                    },
+                    {
+                        "suffix": "гийн",
+                        "after": [],
+                        "word_lists": ["g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "ын", "ы"
+                        ]
+                    },
+                    {
+                        "suffix": "ын",
+                        "after": [
+                            "гэ",
+                            "гө",
+                            "гү",
+                            "га",
+                            "го",
+                            "гу",
+                            "ги"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "гийн"
+                        ]
+                    },
+                    {
+                        "suffix": "ны",
+                        "after": [
+                            "нэ",
+                            "ни",
+                            "нө",
+                            "нү",
+                            "на",
+                            "но",
+                            "ну",
+                            "иа",
+                            "ио",
+                            "иу",
+                            "й",
+                            "мх",
+                            "нх",
+                            "гх",
+                            "лх",
+                            "бх",
+                            "вх",
+                            "рх"
+                        ],
+                        "word_lists": ["n_words"],
+                        "conditions": [],
+                        "replace": [
+                            "ын",
+                            "гийн"
+                        ]
+                    },
+                    {
+                        "suffix": "ийн",
+                        "after": [
+                            "ь",
+                            "ж",
+                            "ч",
+                            "ш"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ын", "ны"
+                        ]
+                    },
+                    {
+                        "suffix": "ны",
+                        "after": [
+                            "мх",
+                            "нх",
+                            "гх",
+                            "лх",
+                            "бх",
+                            "вх",
+                            "рх"
+                        ],
+                        "word_lists": ["n_words"],
+                        "conditions": [],
+                        "replace": [
+                            "ын"
+                        ]
+                    },
+                    {
+                        "suffix": "ны",
+                        "after": [
+                            "хонь"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ийн"
+                        ]
+                    },
+                    {
+                        "suffix": "ийн",
+                        "after": [
+                            "ж",
+                            "ч",
+                            "ш"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ын"
+                        ]
+                    },
+                    {
+                        "suffix": "ийн",
+                        "after": [],
+                        "conditions": ["is_foreign=True"],
+                        "replace": [
+                            "гийн", "ын", "ы", "н"
+                        ]
+                    },
+                    {
+                        "suffix": "ын",
+                        "after": [],
+                        "word_lists": ["foreign_odd_words"],
+                        "conditions": [],
+                        "replace": [
+                            "ийн"
+                        ]
+                    }
+                ]
+            }
+        },
+        "N-UGUH_ORSHIH": {
+            "e_dominated": {
+                "default": [
+                    "т"
+                ],
+                "special": [
+                    {
+                        "suffix": "д",
+                        "after": [
+                            "м", "н", "л", "а", "э", "й", "о", "ө", "у", "ү", "д", "т"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "т"
+                        ]
+                    },
+                    {
+                        "suffix": "нд",
+                        "after": [],
+                        "word_lists": ["n_words"],
+                        "conditions": [],
+                        "replace": [
+                            "т", "д"
+                        ]
+                    },
+                    {
+                        "suffix": "д",
+                        "after": [
+                        ],
+                        "word_lists": ["g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "нд", "т"
+                        ]
+                    }
+                ]
+            },
+            "u_dominated": {
+                "default": [
+                    "т"
+                ],
+                "special": [
+                    {
+                        "suffix": "д",
+                        "after": [
+                            "м", "н", "л", "а", "э", "й", "о", "ө", "у", "ү", "д", "т"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "т"
+                        ]
+                    },
+                    {
+                        "suffix": "нд",
+                        "after": [],
+                        "word_lists": ["n_words"],
+                        "conditions": [],
+                        "replace": [
+                            "т", "д"
+                        ]
+                    },
+                    {
+                        "suffix": "д",
+                        "after": [
+                        ],
+                        "word_lists": ["g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "нд", "т"
+                        ]
+                    }
+                ]
+            },
+            "a_dominated": {
+                "default": [
+                    "т"
+                ],
+                "special": [
+                    {
+                        "suffix": "д",
+                        "after": [
+                            "м", "н", "л", "а", "э", "й", "о", "ө", "у", "ү", "д", "т"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "т"
+                        ]
+                    },
+                    {
+                        "suffix": "нд",
+                        "after": [],
+                        "word_lists": ["n_words"],
+                        "conditions": [],
+                        "replace": [
+                            "т", "д"
+                        ]
+                    },
+                    {
+                        "suffix": "д",
+                        "after": [
+                        ],
+                        "word_lists": ["g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "нд", "т"
+                        ]
+                    }
+                ]
+            },
+            "o_dominated": {
+                "default": [
+                    "т"
+                ],
+                "special": [
+                    {
+                        "suffix": "д",
+                        "after": [
+                            "м", "н", "л", "а", "э", "й", "о", "ө", "у", "ү", "д", "т"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "т"
+                        ]
+                    },
+                    {
+                        "suffix": "нд",
+                        "after": [],
+                        "word_lists": ["n_words"],
+                        "conditions": [],
+                        "replace": [
+                            "т", "д"
+                        ]
+                    },
+                    {
+                        "suffix": "д",
+                        "after": [
+                        ],
+                        "word_lists": ["g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "нд", "т"
+                        ]
+                    }
+                ]
+            }
+        },
+        "N-ZAAH": {
+            "e_dominated": {
+                "default": [
+                    "ийг"
+                ],
+                "special": [
+                    {
+                        "suffix": "г",
+                        "after": [
+                            "ээ",
+                            "өө",
+                            "үү",
+                            "ий",
+                            "эй",
+                            "үй"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ийг"
+                        ]
+                    },
+                    {
+                        "suffix": "ыг",
+                        "after": [
+                            "гэ",
+                            "ги",
+                            "гө",
+                            "гү"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ийг"
+                        ]
+                    },
+                    {
+                        "suffix": "г",
+                        "after": [
+                            "а",
+                            "о",
+                            "у",
+                            "э",
+                            "и",
+                            "й"
+                        ],
+                        "conditions": ["is_foreign=True"],
+                        "replace": [
+                            "ыг", "ийг"
+                        ]
+                    }
+                ]
+            },
+            "u_dominated": {
+                "default": [
+                    "ийг"
+                ],
+                "special": [
+                    {
+                        "suffix": "г",
+                        "after": [
+                            "ээ",
+                            "өө",
+                            "үү",
+                            "ий",
+                            "эй",
+                            "үй"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ийг"
+                        ]
+                    },
+                    {
+                        "suffix": "ыг",
+                        "after": [
+                            "гэ",
+                            "ги",
+                            "гө",
+                            "гү"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ийг"
+                        ]
+                    },
+                    {
+                        "suffix": "г",
+                        "after": [
+                            "а",
+                            "о",
+                            "у",
+                            "э",
+                            "и",
+                            "й"
+                        ],
+                        "conditions": ["is_foreign=True"],
+                        "replace": [
+                            "ыг", "ийг"
+                        ]
+                    }
+                ]
+            },
+            "a_dominated": {
+                "default": [
+                    "ыг"
+                ],
+                "special": [
+                    {
+                        "suffix": "ийг",
+                        "after": [
+                            "г",
+                            "ж",
+                            "ч",
+                            "ш",
+                            "ь"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ыг"
+                        ]
+                    },
+                    {
+                        "suffix": "г",
+                        "after": [
+                            "аа",
+                            "оо",
+                            "уу",
+                            "ай",
+                            "ой",
+                            "уй"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ыг"
+                        ]
+                    },
+                    {
+                        "suffix": "г",
+                        "after": [
+                            "а",
+                            "о",
+                            "у",
+                            "э",
+                            "и",
+                            "й"
+                        ],
+                        "conditions": ["is_foreign=True"],
+                        "replace": [
+                            "ыг", "ийг"
+                        ]
+                    }
+                ]
+            },
+            "o_dominated": {
+                "default": [
+                    "ыг"
+                ],
+                "special": [
+                    {
+                        "suffix": "г",
+                        "after": [
+                            "аа",
+                            "оо",
+                            "уу",
+                            "ай",
+                            "ой",
+                            "уй"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ыг"
+                        ]
+                    },
+                    {
+                        "suffix": "ийг",
+                        "after": [
+                            "г",
+                            "ж",
+                            "ч",
+                            "ш",
+                            "ь"
+                        ],
+                        "conditions": [],
+                        "replace": [
+                            "ыг"
+                        ]
+                    },
+                    {
+                        "suffix": "г",
+                        "after": [
+                            "а",
+                            "о",
+                            "у",
+                            "э",
+                            "и",
+                            "й"
+                        ],
+                        "conditions": ["is_foreign=True"],
+                        "replace": [
+                            "ыг", "ийг"
+                        ]
+                    }
+                ]
+            }
+        },
+        "N-GARAH": {
+            "e_dominated": {
+                "default": [
+                    "ээс"
+                ],
+                "special": [
+                    {
+                        "suffix": "нээс",
+                        "after": [
+                        ],
+                        "word_lists": ["n_words", "g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "ээс"
+                        ]
+                    },
+                    {
+                        "suffix": "гээс",
+                        "after": [
+                        ],
+                        "word_lists": ["g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "ээс", "нээс"
+                        ]
+                    }
+                ]
+            },
+            "u_dominated": {
+                "default": [
+                    "өөс"
+                ],
+                "special": [
+                    {
+                        "suffix": "нөөс",
+                        "after": [
+                        ],
+                        "word_lists": ["n_words", "g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "өөс"
+                        ]
+                    },
+                    {
+                        "suffix": "гөөс",
+                        "after": [
+                        ],
+                        "word_lists": ["g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "өөс", "нөөс"
+                        ]
+                    }
+                ]
+            },
+            "a_dominated": {
+                "default": [
+                    "аас"
+                ],
+                "special": [
+                    {
+                        "suffix": "наас",
+                        "after": [
+                        ],
+                        "word_lists": ["n_words", "g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "аас"
+                        ]
+                    },
+                    {
+                        "suffix": "гаас",
+                        "after": [
+                        ],
+                        "word_lists": ["g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "аас", "наас"
+                        ]
+                    }
+                ]
+            },
+            "o_dominated": {
+                "default": [
+                    "оос"
+                ],
+                "special": [
+                    {
+                        "suffix": "ноос",
+                        "after": [
+                        ],
+                        "word_lists": ["n_words"],
+                        "conditions": [],
+                        "replace": [
+                            "оос"
+                        ]
+                    },
+                    {
+                        "suffix": "гоос",
+                        "after": [
+                        ],
+                        "word_lists": ["g_words"],
+                        "conditions": [],
+                        "replace": [
+                            "оос", "ноос"
+                        ]
+                    }
+                ]
+            }
+        },
+        "N-UILDEH": {
+            "e_dominated": {
+                "default": [
+                    "ээр"
+                ]
+            },
+            "u_dominated": {
+                "default": [
+                    "өөр"
+                ]
+            },
+            "a_dominated": {
+                "default": [
+                    "аар"
+                ]
+            },
+            "o_dominated": {
+                "default": [
+                    "оор"
+                ]
+            }
+        },
+        "N-HAMTRAH": {
+            "e_dominated": {
+                "default": [
+                    "тэй"
+                ]
+            },
+            "u_dominated": {
+                "default": [
+                    "тэй"
+                ]
+            },
+            "a_dominated": {
+                "default": [
+                    "тай"
+                ]
+            },
+            "o_dominated": {
+                "default": [
+                    "той"
+                ]
+            }
+        },
+        "N-CHIGLEH": {
+            "e_dominated": {
+                "default": [
+                    " рүү"
+                ]
+            },
+            "u_dominated": {
+                "default": [
+                    " рүү"
+                ]
+            },
+            "a_dominated": {
+                "default": [
+                    " руу"
+                ]
+            },
+            "o_dominated": {
+                "default": [
+                    " руу"
+                ]
+            }
+        }
+    },
+    "word_lists": {
+        "professions": [
+            "эмч",
+            "багш"
+        ],
+        "n_words": [
+            "аваар",
+            "ёзоор",
+            "төлөв",
+            "эмжээр",
+            "цацраг",
+            "товьёг",
+            "бөгөлдрөг",
+            "өргөө",
+            "хагалгаа",
+            "яам",
+            "унаа",
+            "ус",
+            "нас",
+            "хоол",
+            "хүч",
+            "гараа",
+            "морь",
+            "дуу",
+            "нүд",
+            "мөнгө",
+            "хаалга",
+            "амь",
+            "ёс",
+            "хувцас",
+            "архи",
+            "чулуу",
+            "өнгө",
+            "нулимс",
+            "мах",
+            "тоо",
+            "тэрэг",
+            "үс",
+            "буу",
+            "тамхи",
+            "ажиллагаа",
+            "шувуу",
+            "онгоц",
+            "заяа",
+            "утас",
+            "өвс",
+            "алт",
+            "загас",
+            "дарс",
+            "алба",
+            "үндэс",
+            "яс",
+            "бороо",
+            "хөлс",
+            "чих",
+            "сүү",
+            "хуудас",
+            "төрх",
+            "цаас",
+            "сүнс",
+            "хошуу",
+            "зүүд",
+            "өглөө",
+            "төлөвлөгөө",
+            "арьс",
+            "чөлөө",
+            "бодлого",
+            "нурууны",
+            "хутга",
+            "хад",
+            "зүс",
+            "шүд",
+            "өвдөг",
+            "шороо",
+            "хуруу",
+            "нүх",
+            "нойр",
+            "ногоо",
+            "гэдэс",
+            "гудамж",
+            "цээж",
+            "бут",
+            "ул",
+            "зөвлөгөө",
+            "элэг",
+            "тэмээ",
+            "жимс",
+            "зоос",
+            "хэрэгцээ",
+            "хөмсөг",
+            "саад",
+            "юм",
+            "радио",
+            "сувд",
+            "томъёо",
+            "видео",
+            "түрий",
+            "үнэг",
+            "хүнс",
+            "шуурга",
+            "удирдлага",
+            "цамц",
+            "бөмбөг",
+            "наймаа",
+            "үүл",
+            "аялгуу",
+            "тогоо",
+            "юм",
+            "шөл",
+            "хүзүү",
+            "унд",
+            "олз",
+            "сүлд",
+            "өмд",
+            "кофе",
+            "даавуу",
+            "тарвага",
+            "үйчилгээ",
+            "пиво",
+            "үүд",
+            "бороо",
+            "хашаа",
+            "хаалга",
+            "өд",
+            "сөд",
+            "үнэг",
+            "ундаа",
+            "халбага",
+            "сэрээ",
+            "шагай",
+            "илжиг",
+            "сандал",
+            "шилбэ",
+            "куртка"
+        ],
+        "g_words": [
+            "хүрээлэн",
+            "одон",
+            "хун",
+            "долоо",
+            "ахуй",
+            "дуран",
+            "саван"
+        ],
+        "foreign_words": [
+            "минут",
+            "секунд",
+            "генерал",
+            "евро",
+            "метр",
+            "миллиметр",
+            "сантиметр",
+            "дециметр",
+            "километр",
+            "грамм",
+            "миллиграмм",
+            "килограмм"
+        ],
+        "foreign_odd_words": [
+            "минут"
+        ]
+    }
+}
