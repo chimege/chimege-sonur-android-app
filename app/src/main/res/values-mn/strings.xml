@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Чимэгэ Сонур</string>
+
+    <string name="chimege_settings">Чимэгэ Сонур тохиргоо</string>
+    <string name="general_tts_settings">Утасны TTS тохиргоо</string>
+    <string name="voice_settings">Хоолойны тохиргоо</string>
+    <string name="speed">Хурд %</string>
+    <string name="pitch">Өнгө</string>
+    <string name="volume">Чанга сул %</string>
+    <string name="voice">Хоолойны сонголт</string>
+    <string name="default_voice">Гадаад бичвэр уншигчийн хоолой</string>
+    <string name="default_engine">Гадаад бичвэр уншигч</string>
+    <string name="stream_chunk_size">Ачааллах сегментийн хэмжээ</string>
+    <string name="stream_overlay">Сегментийн давхцал</string>
+    <string name="text_group_size">Текст бүлэглэх хэмжээ</string>
+    <string name="text_settings">Текстийн тохиргоо</string>
+    <string name="read_emoji">Эможи Унших</string>
+    <string name="read_emoji_example">Жишээ: 😀</string>
+    <string name="read_abb">Товчлол Унших</string>
+    <string name="read_abb_example">Жишээ: УИХ</string>
+    <string name="read_symbols">Тэмдэгт унших тохиргоо</string>
+    <string name="read_symbol_example">Жишээ: $</string>
+    <string name="foreign_words">Гадаад үг унших тохиргоо</string>
+    <string name="foreign_word_example">Жишээ: Hello</string>
+    <string name="leave_number_junction">Тооны төгсгөлийн холбоосыг орхих</string>
+    <string name="leave_number_junction_example">Жишээ: 3 туулай</string>
+    <string name="read_list_number">Дэс дугаар унших</string>
+    <string name="read_list_number_example">Жишээ: 1.1</string>
+    <string name="read_number">Тоо унших тохиргоо</string>
+    <string name="read_number_example">Жишээ: 12, 20011001, ДР12345678, 3.14</string>
+    <string name="pause_between_words">Үг хоорондох зогсолт</string>
+</resources>

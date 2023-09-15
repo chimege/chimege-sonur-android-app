@@ -1,0 +1,10 @@
+plugins {
+    id 'com.android.asset-pack'
+}
+
+assetPack {
+    packName = "voices"
+    dynamicDelivery {
+        deliveryType = "install-time"
+    }
+}

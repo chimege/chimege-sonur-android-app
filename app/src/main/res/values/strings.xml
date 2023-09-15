@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Chimege Sonur</string>
+    <string name="title_activity_ttssettings" translatable="false">TTSSettingsActivity</string>
+
+    <string name="chimege_settings">Chimege Settings</string>
+    <string name="general_tts_settings">General TTS Settings</string>
+    <string name="voice_settings">Voice Settings</string>
+    <string name="speed">Speed %</string>
+    <string name="pitch">Pitch</string>
+    <string name="volume">Volume %</string>
+    <string name="voice">Voice Selection</string>
+    <string name="default_voice">Default Voice Selection</string>
+    <string name="default_engine">Default Engine Selection</string>
+    <string name="stream_chunk_size">Audio Segment Size %</string>
+    <string name="stream_overlay">Stream Overlay %</string>
+    <string name="text_group_size">Text Group Size</string>
+    <string name="text_settings">Text Settings</string>
+    <string name="read_emoji">Read Emoji</string>
+    <string name="read_emoji_example">Жишээ: 😀</string>
+    <string name="read_abb">Abbreviation Options</string>
+    <string name="read_abb_example">Жишээ: УИХ</string>
+    <string name="read_symbols">Symbol Options</string>
+    <string name="read_symbol_example">Жишээ: $</string>
+    <string name="foreign_words">Foreign Word Options</string>
+    <string name="foreign_word_example">Жишээ: Hello</string>
+    <string name="leave_number_junction">Leave Number Word Junctions</string>
+    <string name="leave_number_junction_example">Жишээ: 3 туулай</string>
+    <string name="read_list_number">Read List Index Numbers</string>
+    <string name="read_list_number_example">Жишээ: 1.1</string>
+    <string name="read_number">Number Options</string>
+    <string name="read_number_example">Жишээ: 12, 20011001, ДР12345678, 3.14</string>
+    <string name="pause_between_words">Pause Between Words</string>
+</resources>

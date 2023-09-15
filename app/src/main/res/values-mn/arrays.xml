@@ -1,0 +1,76 @@
+<resources>
+    <string-array name="voices">
+        <item>Эмэгтэй small</item>
+        <item>Эмэгтэй tiny</item>
+        <item>Эмэгтэй 2</item>
+        <item>Эмэгтэй 3</item>
+        <item>Эрэгтэй 1</item>
+        <item>Эрэгтэй 2</item>
+        <item>Эрэгтэй 3</item>
+    </string-array>
+
+    <string-array name="abb_options">
+        <item>abbreviation</item>
+        <item>letter</item>
+        <item>skip</item>
+    </string-array>
+
+    <string-array name="abb_option_names">
+        <item>Бүтэн Задална</item>
+        <item>Үсэг үсэгээр</item>
+        <item>Алгасах</item>
+    </string-array>
+
+    <string-array name="google_voices">
+        <item>Хоолой 1</item>
+        <item>Хоолой 2</item>
+        <item>Хоолой 3</item>
+        <item>Хоолой 4</item>
+        <item>Хоолой 5</item>
+        <item>Хоолой 6</item>
+        <item>Хоолой 7</item>
+        <item>Хоолой 8</item>
+        <item>Хоолой 9</item>
+        <item>Хоолой 10</item>
+    </string-array>
+
+    <string-array name="number_chunk_names">
+        <item>Ухаалаг</item>
+        <item>Хоёр орноор</item>
+        <item>Нэг орноор</item>
+        <item>Бүтнээр нь</item>
+    </string-array>
+
+    <string-array name="number_chunk">
+        <item>default</item>
+        <item>double</item>
+        <item>single</item>
+        <item>whole</item>
+    </string-array>
+
+    <string-array name="symbol_names">
+        <item>Огт тэмдэгт уншихгүй</item>
+        <item>Бүх тэмдэгтийг уншина</item>
+        <item>Түгээмэл тэмдэгтүүдийг л уншина</item>
+        <item>Зааж өгсөн тэмдэгтүүдийг уншина</item>
+        <item>Зааж өгснөөс бусдыг нь уншинша</item>
+    </string-array>
+
+    <string-array name="symbols">
+        <item>no_temdegt</item>
+        <item>buh_temdegt</item>
+        <item>tugeemel_temdegt</item>
+        <item>unshih_custom_temdegt</item>
+        <item>unshihgui_custom_temdegt</item>
+    </string-array>
+
+    <string-array name="foreignTextOptionNames">
+        <item>Галиглана</item>
+        <item>Үндсэн яригчийг ашиглана</item>
+    </string-array>
+
+    <string-array name="foreignTextOption">
+        <item>normalize</item>
+        <item>leave</item>
+    </string-array>
+</resources>

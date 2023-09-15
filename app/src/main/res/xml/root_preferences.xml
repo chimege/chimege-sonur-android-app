@@ -1,0 +1,136 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/voice_settings">
+        <SeekBarPreference
+            android:defaultValue="100"
+            android:max="300"
+            app:key="speed"
+            app:min="50"
+            app:seekBarIncrement="10"
+            app:showSeekBarValue="true"
+            app:title="@string/speed" />
+
+        <SeekBarPreference
+            android:defaultValue="100"
+            android:max="150"
+            app:key="pitch"
+            app:min="50"
+            app:seekBarIncrement="10"
+            app:showSeekBarValue="true"
+            app:title="@string/pitch" />
+
+        <SeekBarPreference
+            android:defaultValue="200"
+            android:max="200"
+            app:key="volume"
+            app:min="50"
+            app:seekBarIncrement="10"
+            app:showSeekBarValue="true"
+            app:title="@string/volume" />
+
+<!--        <ListPreference-->
+<!--            android:defaultValue="Эмэгтэй small"-->
+<!--            android:entries="@array/voices"-->
+<!--            android:entryValues="@array/voices"-->
+<!--            android:key="voice"-->
+<!--            android:title="@string/voice" />-->
+
+        <SeekBarPreference
+            android:defaultValue="100"
+            android:max="400"
+            app:key="decoderChunkSize"
+            app:min="30"
+            app:seekBarIncrement="10"
+            app:showSeekBarValue="true"
+            app:title="@string/stream_chunk_size" />
+
+        <SeekBarPreference
+            android:defaultValue="50"
+            android:max="20"
+            app:key="overlapLength"
+            app:min="5"
+            app:seekBarIncrement="10"
+            app:showSeekBarValue="true"
+            app:title="@string/stream_overlay" />
+
+        <SeekBarPreference
+            android:defaultValue="50"
+            android:max="200"
+            app:key="charSplitSize"
+            app:min="30"
+            app:seekBarIncrement="10"
+            app:showSeekBarValue="true"
+            app:title="@string/text_group_size" />
+
+        <SeekBarPreference
+            android:defaultValue="30"
+            android:max="30"
+            app:key="pauseBetweenWords"
+            app:min="1"
+            app:seekBarIncrement="1"
+            app:showSeekBarValue="true"
+            app:title="@string/pause_between_words" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/text_settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="readEmoji"
+            android:title="@string/read_emoji"
+            app:summary="@string/read_emoji_example"/>
+        <ListPreference
+            android:defaultValue="abbreviation"
+            android:entries="@array/abb_option_names"
+            android:entryValues="@array/abb_options"
+            android:key="abbreviationLevel"
+            android:title="@string/read_abb"
+            app:summary="@string/read_abb_example" />
+        <ListPreference
+            android:defaultValue="no_temdegt"
+            android:entries="@array/symbol_names"
+            android:entryValues="@array/symbols"
+            android:key="symbolReadOption"
+            android:title="@string/read_symbols"
+            app:summary="@string/read_symbol_example" />
+        <ListPreference
+            android:defaultValue="normalize"
+            android:entries="@array/foreignTextOptionNames"
+            android:entryValues="@array/foreignTextOption"
+            android:key="foreignCharacterOption"
+            android:title="@string/foreign_words"
+            app:summary="@string/foreign_word_example"/>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="dontReadNumberJunction"
+            android:title="@string/leave_number_junction"
+            app:summary="@string/leave_number_junction_example" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="readDotNumbersAsListIndex"
+            android:title="@string/read_list_number"
+            app:summary="@string/read_list_number_example" />
+        <ListPreference
+            android:defaultValue="default"
+            android:entries="@array/number_chunk_names"
+            android:entryValues="@array/number_chunk"
+            android:key="numberChunkSize"
+            android:title="@string/read_number"
+            app:summary="@string/read_number_example" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Default Engine Options">
+        <ListPreference
+            android:key="defaultEngine"
+            android:title="@string/default_engine" />
+        <EditTextPreference
+            android:defaultValue="22050"
+            android:key="default_engine_sr"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Default Engine Sample Rate" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
