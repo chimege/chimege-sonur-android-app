@@ -1,0 +1,14 @@
+name: text_normalizer
+channels:
+  - defaults
+dependencies:
+  - python==3.8
+  - tqdm
+  - pyyaml
+  - pip
+  - pip:
+    - pyyaml~=5.3.1
+    - phonemizer_lite
+    - flask
+    - waitress
+    - pandas

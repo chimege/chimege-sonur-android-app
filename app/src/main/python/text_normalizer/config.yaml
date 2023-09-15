@@ -1,0 +1,37 @@
+host: "0.0.0.0"
+port: 6969
+thread: 16
+api_key: 9XZiFiU7z05pba6yMz8bnlTTQN1IjOx6GxMFHzU
+debug_test: false
+
+
+runtime_config:
+    default_options:
+        split_sentences: true # false
+        abbreviation_level: "abbreviation" # letter, word
+        read_symbols: "no_temdegt" # buh_temdegt, tugeemel_temdegt, no_temdegt, unshih_custom_temdegt, unshihgui_custom_temdegt
+        read_emojis: true # false
+        use_phonemizer: true # false
+        dont_read_number_n: false # true
+        read_legal_number: false # true
+        read_roman_number: false # false
+        number_chunker: default # double, single, whole, default
+        read_balarhai_egshig_clearly: true # true, false
+
+    initial_config:
+        noun_conj: 'noun_conj.json'
+        symbols_file: 'symbols.json'
+        abbreviation_file: 'mongolian_abbreviations.csv'
+        emoji_list: 'emoji_list.json'
+        soft_threshold: 150
+        hard_threshold: 250
+
+loggers:
+    tts_logger:
+        name: tts_normalizer
+        host: elk.dev.bolor.net
+        port: port_pls
+    stt_logger:
+        name: stt_normalizer
+        host: elk.dev.bolor.net
+        port: port_pls

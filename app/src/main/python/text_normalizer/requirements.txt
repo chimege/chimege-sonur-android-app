@@ -1,0 +1,7 @@
+pyyaml
+flask
+waitress
+pandas
+python-logstash-async
+dlinfo
+Bio
